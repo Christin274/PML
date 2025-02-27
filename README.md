@@ -14,7 +14,7 @@
 
 [5] Anchors: High Precision Model-Agnostic Explanations. In AAAI. 2018.
 
-[6] PARs: Predicate-based Association Rules for Efficient and Accurate Anomaly Explanation.
+[6] PARs: Predicate-based Association Rules for Efficient and Accurate Anomaly Explanation. In CIKM. 2024
 
 
 
@@ -54,7 +54,7 @@ coming soon
 
 - `--w2s_ratio [auto/real_len/pn]`  - how to transfer feature weight to feature subspace 'real-len', 'auto', or 'pn' 
 denote the same length with the ground-truth, auto generating subspace by the proposed threshold or positive-negative.
-(in our paper, we use 'pn' in COIN', use 'auto' in ATON'. As for methods which output, we directly use 'real-len'.)
+(in our paper, we use 'auto' in ATON'. As for methods which output, we directly use 'real-len'.)
 
 - `--eval [True/False]` - evaluate or not, use False for scalability test  
   ... (other hypter-parameters of different methods. You may want to use -h to check the corresponding hypter-parameters after modifing the `algorithm_name`)  
